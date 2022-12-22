@@ -1,0 +1,46 @@
+@media(max-width:688px){
+   .nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   }
+   
+   .div__cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+    .div__content{
+        width: 100%;
+    }
+}
+
+@media(max-width:688px){
+    .footer__item_container{
+        flex-direction: column;
+    }
+
+    .footer__item_link{
+        margin-top: 19px;
+        margin-bottom: -12px;
+    }
+
+    .adidas__main_text {
+        padding: 20px 29px;
+    }
+
+    .header__content_text{
+        font-size: 19px;
+        margin: -13px;
+    }
+
+    .header__content_title{
+        font-size: 32px;
+    }
+
+    .adidas__main_title{
+        padding:  24px 24px 0px;
+    }
+}
